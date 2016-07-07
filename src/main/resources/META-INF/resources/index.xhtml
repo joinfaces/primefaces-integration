@@ -1,14 +1,15 @@
-<ui:composition template="/WEB-INF/templates/base.xhtml"
+<ui:composition template="templates/base.xhtml"
                 xmlns:ui="http://java.sun.com/jsf/facelets"
                 xmlns:p="http://primefaces.org/ui"
                 xmlns:b="http://butterfaces.org/components"
+                xmlns:o="http://omnifaces.org/ui"
                 xmlns:f="http://xmlns.jcp.org/jsf/core"
                 xmlns:h="http://java.sun.com/jsf/html">
 
     <ui:define name="content">
 
         <h:form styleClass="container" style="padding-top: 20px">
-
+            <o:validateOne components="text" />
             <div class="alert alert-success">
                 Testing PrimeFaces and ButterFaces integration. Using b:labeledContainer with p:spinner.
             </div>

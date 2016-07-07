@@ -60,5 +60,5 @@ Activate it in your `faces-config.xml`
 
 ## Start showcase
 ```
-mvn clean package wildfly-swarm:run
+java -jar target/PrimeFacesIntegration-1.0-SNAPSHOT.jar
 ```
