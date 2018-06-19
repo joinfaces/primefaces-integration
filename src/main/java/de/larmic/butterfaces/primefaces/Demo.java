@@ -1,7 +1,7 @@
 package de.larmic.butterfaces.primefaces;
 
-import de.larmic.butterfaces.model.text.AutoCompleteModel;
-import de.larmic.butterfaces.util.StringUtils;
+import org.butterfaces.model.text.AutoCompleteModel;
+import org.butterfaces.util.StringUtils;
 
 import javax.annotation.PostConstruct;
 import javax.faces.view.ViewScoped;
